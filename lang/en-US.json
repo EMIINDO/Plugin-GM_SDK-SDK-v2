@@ -1,0 +1,41 @@
+﻿{
+  "languageTag": "en-US",
+  "fileDescription": "Strings for GameMonetize SDK.",
+  "text": {
+    "plugins": {
+      "gm_sdk": {
+        "name": "GameMonetize SDK",
+        "description": "Construct 3 plugin for the GameMonetize SDK",
+        "help-url": "https://gamemonetize.com/sdk",
+        "properties": {
+          "game-id": {
+            "name": "Game ID",
+            "desc": "Enter your Game ID (required)"
+          }
+        },
+        "aceCategories": {
+          "custom": "Custom"
+        },
+        "conditions": {
+          "pause-game": {
+            "list-name": "Pause game during advertisement",
+            "display-text": "Advertisement is active.",
+            "description": "Pause game during advertisement"
+          },
+          "resume-game": {
+            "list-name": "Resume game after advertisement",
+            "display-text": "Advertisement is not active.",
+            "description": "Resume game after advertisement"
+          }
+        },
+        "actions": {
+          "show-ad": {
+            "list-name": "Show an advertisement.",
+            "display-text": "Show an advertisement",
+            "description": "Tries to display an advertisement. Make sure to also handle the appropriate conditions."
+          }
+        }
+      }
+    }
+  }
+}

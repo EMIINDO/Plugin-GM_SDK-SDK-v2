@@ -1,0 +1,24 @@
+﻿{
+  "custom": {
+    "conditions": [
+      {
+        "id": "pause-game",
+        "scriptName": "PauseGame",
+        "highlight": true
+      },
+      {
+        "id": "resume-game",
+        "scriptName": "ResumeGame",
+        "highlight": true
+      }
+    ],
+    "actions": [
+      {
+        "id": "show-ad",
+        "scriptName": "ShowAd",
+        "highlight": true
+      }
+    ],
+    "expressions": []
+  }
+}
